@@ -15,4 +15,9 @@ public class CharThread extends Thread{
         }
     }
 
+    // Overriding the run method to define thread behavior
+    @Override
+    public void run() {
+        printCharacters();
+    }
 }
